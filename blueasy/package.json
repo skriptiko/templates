@@ -1,0 +1,16 @@
+{
+  "name": "less-convert",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "lite-server": "lite-server -c ./bs-config.json",
+    "start-gulp": "gulp"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+  },
+  "devDependencies": {
+  },
+  "description": ""
+}

@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Test task</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="stylesheet" href="css/vendors/bootstrap.min.css">
+	<link rel="stylesheet" href="fonts/font-awesome/font-awesome.min.css">
+
+
+	<link rel="stylesheet" href="css/site.css">
+
+</head>
+
+<body>
+	<header>
+		<section class="header-top-section">
+			<div class="container wrap-container">
+				<div class="wrap-container center-container col-xs-12 col-sm-12 col-md-12 col-lg-8">
+					<nav class="nav-language">
+						<ul>
+							<li><a href="/">РУС</a></li>
+							<li><a href="/">|</a></li>
+							<li><a href="/">УКР</a></li>
+						</ul>
+					</nav>
+					<nav class="nav-top">
+						<ul>
+							<li><a href="/">О нас</a></li>
+							<li><a href="/">Доставка</a></li>
+							<li><a href="/">Оплата</a></li>
+							<li><a href="/">Кредит</a></li>
+							<li><a href="/">Гарантия</a></li>
+							<li><a href="/">Контакты</a></li>
+						</ul>
+					</nav>
+				</div>
+				<div class="wrap-container center-container col-xs-12 col-sm-12 col-md-12 col-lg-4">
+					<nav class="nav-login">
+						<ul>
+							<li><a href="/"><i class="fa fa-align-left fa-rotate-270" aria-hidden="true"></i><span>5</span>Сравнение</a></li>
+							<li><a href="/"><i class="fa fa-heart-o" aria-hidden="true"></i><span>3</span>Избранное</a></li>
+							<li><a href="/"><i class="fa fa-user-o" aria-hidden="true"></i>ВХОД</a></li>
+						</ul>
+					</nav>
+
+				</div>
+			</div>
+		</section>
+		<section class="header-center-section">
+			<div class="container wrap-container">
+				<div class="center-container indent-right col-xs-12 col-sm-12 col-md-12 col-lg-6">
+					<div class="logo-container">
+						<img src="img/logo.png" alt="logo">
+					</div>
+					<div class="search-input ">
+						<div class="input">
+							<input type="text" name="main-search" placeholder="Поиск">
+							<p>Здесь искали: <span>iPhone 6s</span></p>
+							<a href="/"><i class="fa fa-search" aria-hidden="true"></i></a>
+						</div>
+					</div>
+				</div>
+				<div class="center-container indent-left col-xs-12 col-sm-12 col-md-12 col-lg-6">
+					<div class="phone-number center-column">
+						<p>+38 ( 067 ) 111-11-11</p>
+						<p>+38 ( 067 ) 111-11-11</p>
+						<p>+38 ( 067 ) 111-11-11</p>
+					</div>
+					<div class="call-back center-column">
+						<p>Украина, г. Киев,
+							<br> ул. Ярославска, 135</p>
+						<button class="button" type="button" data-toggle="modal" data-target=".bs-example-modal-sm"><i class="fa fa-phone" aria-hidden="true"></i>Обратный звонок</button>
+						<div class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+							<div class="modal-dialog modal-sm" role="document">
+								<div class="modal-content">
+									<a href="/" class="modal-basket-close" data-dismiss="modal" aria-label="Close"><i class="fa fa-times" aria-hidden="true"></i></a>
+									<div class="input-group">
+										<span class="input-group-addon" id="Name"><i class="fa fa-id-card-o" aria-hidden="true"></i></span>
+										<input type="text" class="form-control" placeholder="Name" aria-describedby="Name">
+									</div>
+									<div class="input-group">
+										<span class="input-group-addon" id="Phone"><i class="fa fa-phone" aria-hidden="true"></i></span>
+										<input type="text" class="form-control" placeholder="Phone" aria-describedby="Phone">
+									</div>
+									<button type="button" class="btn btn-primary">Send</button>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="center-container basket-container">
+						<div class="basket-box">
+							<button class="button basket-button" type="button" data-toggle="modal" data-target=".basket-box-sm"><i class="fa fa-shopping-cart" aria-hidden="true"></i></button>
+							<div class="modal fade basket-box-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+								<div class="modal-dialog" role="document">
+									<div class="basket-modal-content">
+										<a href="/" class="modal-basket-close" data-dismiss="modal" aria-label="Close"><i class="fa fa-times" aria-hidden="true"></i></a>
+										<div class="basket-modal-cont">
+											
+									
+										</div>
+										<div class="basket-buy">
+											<div><p>Сумма:</p><p class="total"></p><p>UAN</p></div>
+											<button type="button" class="btn btn-primary">Оформить заказ</button>
+										</div>
+									</div>
+								</div>
+							</div>
+							<p class="price">1 260 ГРН</p>
+							<div class="quantity"><span>3</span></div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="header-bottom-section">
+			<div class="container no-padding">
+				<nav class="col-lg-12">
+					<ul class="between-container">
+						<li class="dropdown">
+						  	<a href="/" id="dLabel" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Коллекции <span class="caret"></span></a>
+							<ul class="dropdown-menu" aria-labelledby="dLabel">
+								<li><a href="/">Пункт 1</a></li>
+								<li><a href="/">Пункт 2</a></li>
+								<li><a href="/">Пункт 3</a></li>
+								<li><a href="/">Пункт 4</a></li>
+								<li><a href="/">Пункт 5</a></li>
+							</ul>
+						</li>
+						<li><a href="/">Женская одежда</a></li>
+						<li><a href="/">Мужская одежда</a></li>
+						<li><a href="/">Активный отдых <br> и туризм</a></li>
+						<li><a href="/">Одежда для дома</a></li>
+						<li><a href="/">Акции</a></li>
+						<li><a href="/">Бренды</a></li>
+					</ul>
+				</nav>
+			</div>
+		</section>
+	</header>
+	<section class="card-product-section">
+		<div class="container card-product-bgc">
+			<nav class="card-product-nav">
+				<ul>
+					<li><a href="/">Главная<i class="fa fa-angle-right" aria-hidden="true"></i></a></li>
+					<li><a href="/">Женская одежда<i class="fa fa-angle-right" aria-hidden="true"></i></a></li>
+					<li><a href="/">Платья<i class="fa fa-angle-right" aria-hidden="true"></i></a></li>
+					<li><a href="/">Платье Ashley Summers</a></li>
+				</ul>
+			</nav>
+			<section class="product-section">
+				<div class="product-title between-container">
+					<h1>Платье Ashley Summers</h1>
+					<div class="between-container"><i class="fa fa-check" aria-hidden="true"></i>
+						<p>Есть в наличии</p>
+					</div>
+				</div>
+				<div class="product-rating">
+					<ul class="between-container">
+						<li><i class="fa fa-star" aria-hidden="true"></i></li>
+						<li><i class="fa fa-star" aria-hidden="true"></i></li>
+						<li><i class="fa fa-star" aria-hidden="true"></i></li>
+						<li><i class="fa fa-star" aria-hidden="true"></i></li>
+						<li><i class="fa fa-star-o" aria-hidden="true"></i></li>
+					</ul>
+					<a href="/">24 Отзыва</a>
+				</div>
+				<div class="product-navigation">
+					<nav class="product-navigation-nav">
+						<ul class="around-container">
+							<li class="active"><a href="/">Все</a></li>
+							<li><a href="/">Описание</a></li>
+							<li><a href="/">Характеристики</a></li>
+							<li><a href="/">Отзывы</a></li>
+							<li><a href="/">Вопросы</a></li>
+							<li><a href="/">Видео</a></li>
+						</ul>
+					</nav>
+				</div>
+				<div class="product-tabs-content">
+					<div class="product-img">
+						<div class="carousel shadow">
+							<div class="carousel-button-left"><a href="/"><i class="fa fa-angle-up" aria-hidden="true"></i></a></div>
+							<div class="carousel-button-right"><a href="/"><i class="fa fa-angle-down" aria-hidden="true"></i></a></div>
+							<div class="carousel-wrapper">
+								<div class="carousel-items">
+
+								</div>
+							</div>
+						</div>
+						<div class="carousel-preview">
+							<img src="" alt="" />
+						</div>
+
+
+					</div>
+					<div class="product-description">
+						<div class="description">
+							<div class="article-availability">
+								<h3>Платье Ashley Summers</h3>
+								<p>Артикул: 123445</p>
+								<p>Код товара: 87345</p>
+								<p>Наличие: <span>В наличии 105 товаров</span></p>
+							</div>
+							<div class="color-size">
+								<p class="color-title">Цвет:</p>
+								<div class="color">
+
+								</div>
+
+								<p class="size-title">Размер:</p>
+								<div class="size">
+
+								</div>
+							</div>
+							<div class="price-booking">
+								<div class="quantity">
+									<p>Выберите количество:</p>
+									<div class="sum sum-quantity">
+										<p>1</p>
+										<div><i class="fa fa-angle-up" aria-hidden="true"></i><i class="fa fa-angle-down" aria-hidden="true"></i></div>
+									</div>
+								</div>
+								<div class="prise">
+									<p>Ваша цена:</p>
+									<p>2700 грн</p>
+									<p>3500 грн</p>
+								</div>
+								<div class="buy-btn">
+									<a href=""><i class="fa fa-shopping-cart" aria-hidden="true"></i>Купить</a>
+									<i class="fa fa-heart-o" aria-hidden="true"></i>
+									<i class="fa fa-align-left fa-rotate-270" aria-hidden="true"></i>
+								</div>
+							</div>
+							<div class="instant-booking">
+								<p>или купить в 1 клик</p>
+								<div class="around-container">
+									<input class="input" type="tel" placeholder="+38 (0__) __-__-___" />
+									<a class="order" href="/">Мгновенный заказ</a>
+								</div>
+							</div>
+							<div class="found-cheaper">
+								<i class="fa fa-money" aria-hidden="true"></i>
+								<p>Нашли дешевле?</p>
+								<a href="/">Нашел</a>
+							</div>
+						</div>
+
+					</div>
+					<div class="main-inner-description">
+						<div class="description-par">
+							<div class="delivery">
+								<h4><i class="fa fa-truck" aria-hidden="true"></i>Доставка</h4>
+								<p>- Самовывоз</p>
+								<p>- Новая почта (на склад)</p>
+								<p>- Новая почта (курьером)</p>
+								<p>- Интайм</p>
+							</div>
+							<div class="payment">
+								<h4><i class="fa fa-credit-card" aria-hidden="true"></i>Оплата</h4>
+								<p>- Наличными при получении</p>
+								<p>- Приват 24</p>
+								<p>- Наложенный платеж</p>
+							</div>
+							<div class="guarantee">
+								<h4><i class="fa fa-address-card-o" aria-hidden="true"></i>Гарантия</h4>
+								<p>- 12 месяцев</p>
+								<p>- Обмен/возврат товара в течении 14 дней</p>
+							</div>
+							<div class="issue">
+								<h4><i class="fa fa-info-circle" aria-hidden="true"></i>Есть вопрос?</h4>
+								<p>Свяжись с нами по указаным телефонам или воспользуйтесь формой обратной связи для решения Вашего вопроса</p>
+							</div>
+						</div>
+					</div>
+
+				</div>
+				<div class="inner-description">
+
+				</div>
+				<div class="social-links center-container">
+					<p>Рассказать друзьям:</p>
+					<a class="vkontakte" href="/"><i class="fa fa-vk" aria-hidden="true"></i><span>85</span></a>
+					<a class="facebook" href="/"><i class="fa fa-facebook" aria-hidden="true"></i><span>84</span></a>
+					<a class="google" href="/"><i class="fa fa-google-plus" aria-hidden="true"></i><span>4</span></a>
+					<a class="twitter" href="/"><i class="fa fa-twitter" aria-hidden="true"></i><span>12</span></a>
+				</div>
+			</section>
+			<section class="banner-center-section">
+				<a href="/"><img src="img/banner-center.png" alt=""></a>
+			</section>
+			<section class="recommend-product-section">
+				<h3>Вместе дешевле</h3>
+				<div class="similar-goods-container similar around-container">
+					<div class="similar-goods similar-goods-1">
+
+					</div>
+					<p class="math">+</p>
+					<div class="similar-goods similar-goods-2">
+
+					</div>
+					<p class="math">+</p>
+					<div class="similar-goods similar-goods-3">
+
+					</div>
+					<p class="math">=</p>
+					<div class="similar-goods-set">
+						<p class="price"><span class="all-price">6 650 грн</span><span class="discount-price">6 450 грн</span></p>
+						<a href="/">Купить комплект</a>
+						<p class="discont">Экономия 200 гривен</p>
+					</div>
+				</div>
+			</section>
+			<section class="product-char-section">
+
+				<div class="product-desc col-md-6">
+					<div>
+						<h5>Описание</h5>
+						<p>Brent Conrad talks with everyone from, frequent travelers to the busy family that can only get away for vacation every couple of years. He states that saving people thousands of dollars that can be used elsewhere in life is priceless. LifetimeResort.com has given the average family a chance to vacation to the most exotic locations all over the world at a fraction of what it would normally cost to own a timeshare. Selecting from more than 5,000 different locations worldwide and over 200,000 available weeks makes the availability factor non-existent. Timeshares will be a thing of the past in the near future. Timeshares have a huge upfront cost that comes with mortgage payments if you can not afford to pay all of the initial cost upfront. They have annual dues whether you use the one lousy week of vacation or not! If you would like to stay somewhere else, you have to exchange your week for somebody else’s, GOOD LUCK! And if you want to sell your timeshare, Brent Conrad with Global Resorts.
+						</p>
+						<a href="/">Подробнее</a>
+					</div>
+				</div>
+				<div class="product-char col-md-6">
+					<div>
+						<h5>Характеристики</h5>
+						<ul>
+							<li>
+								<p>Поддержка нескольких СИМ-карт</p>
+								<p>Нет</p>
+							</li>
+							<li>
+								<p>Операционная система</p>
+								<p>iOS</p>
+							</li>
+							<li>
+								<p>Процессор</p>
+								<p>Apple A9 с 64-битный</p>
+							</li>
+							<li>
+								<p>Сопроцессор движения</p>
+								<p>158.2 x 77.9 x 7.3 мм</p>
+							</li>
+							<li>
+								<p>Размеры и вес</p>
+								<p>Вес: 192 г</p>
+							</li>
+							<li>
+								<p>Форм-фактор телефона</p>
+								<p>Сенсорный моноблок</p>
+							</li>
+							<li>
+								<p>Дисплей</p>
+								<p>5.5" Retina HD </p>
+							</li>
+						</ul>
+						<a href="/">Подробнее</a>
+					</div>
+				</div>
+
+			</section>
+			<section class="product-com-section">
+				<div class="product-reviews col-md-8  col-md-offset-2">
+					<h4>Отзывы о товаре</h4>
+					<div class="single-product-reviews">
+						<div>
+							<div class="product-rating">
+								<p>Александр</p>
+								<ul class="between-container">
+									<li><i class="fa fa-star" aria-hidden="true"></i></li>
+									<li><i class="fa fa-star" aria-hidden="true"></i></li>
+									<li><i class="fa fa-star" aria-hidden="true"></i></li>
+									<li><i class="fa fa-star" aria-hidden="true"></i></li>
+									<li><i class="fa fa-star-o" aria-hidden="true"></i></li>
+								</ul>
+							</div>
+							<p>22.03.16</p>
+						</div>
+						<p>
+							Таким образом рамки и место обучения кадров позволяет выполнять важные задания по разработке модели развития. Равным образом постоянное информационно пропагандистское обеспечение нашей деятельности представляет собой интерес эксперимент проверки направлений прогрессив развития. Равным образом консультация с широким активом позволяет оценить значение существенных финансовых и позволяет оценить консультация с широким образом постоянное информационно.
+						</p>
+
+					</div>
+					<div class="single-product-reviews">
+						<div>
+							<div class="product-rating">
+								<p>Татьяна</p>
+								<ul class="between-container">
+									<li><i class="fa fa-star" aria-hidden="true"></i></li>
+									<li><i class="fa fa-star" aria-hidden="true"></i></li>
+									<li><i class="fa fa-star" aria-hidden="true"></i></li>
+									<li><i class="fa fa-star" aria-hidden="true"></i></li>
+									<li><i class="fa fa-star-o" aria-hidden="true"></i></li>
+								</ul>
+							</div>
+							<p>22.03.16</p>
+						</div>
+						<p>
+							Таким образом рамки и место обучения кадров позволяет выполнять важные задания по разработке модели развития. Равным образом постоянное информационно пропагандистское обеспечение нашей деятельности представляет собой интерес эксперимент проверки направлений прогрессив развития.
+						</p>
+					</div>
+					<div class="between-container"><a href="/">Оставить отзыв</a><a href="/">Подробнее</a></div>
+				</div>
+				<div class="product-reviews col-md-8  col-md-offset-2">
+					<h4>Вопросы</h4>
+					<div class="single-product-reviews question">
+						<div>
+							<p>Вопрос</p>
+							<p>Алесандр<span>22.03.16</span></p>
+						</div>
+						<p>
+							Таким образом рамки и место обучения кадров позволяет выполнять важные задания по разработке модели развития. Равным образом постоянное информационно пропагандистское обеспечение нашей деятельности представляет собой интерес эксперимент проверки направлений прогрессив развития. Равным образом консультация с широким активом позволяет оценить значение существенных финансовых и позволяет оценить консультация с широким образом постоянное информационно.
+						</p>
+					</div>
+					<div class="single-product-reviews question answer">
+						<div>
+							<p>Ответ</p>
+							<p>Менеджер<span>22.03.16</span></p>
+						</div>
+						<p>
+							Таким образом рамки и место обучения кадров позволяет выполнять важные задания по разработке модели развития. Равным образом постоянное информационно пропагандистское обеспечение нашей деятельности представляет собой интерес эксперимент проверки направлений прогрессив развития.
+						</p>
+					</div>
+					<div class="single-product-reviews question">
+						<div>
+							<p>Вопрос</p>
+							<p>Марина<span>22.03.16</span></p>
+						</div>
+						<p>
+							Таким образом рамки и место обучения кадров позволяет выполнять важные задания по разработке модели развития. Равным образом постоянное информационно пропагандистское обеспечение нашей деятельности представляет собой интерес эксперимент проверки направлений прогрессив развития. Равным образом консультация с широким активом позволяет оценить значение существенных финансовых и позволяет оценить консультация с широким образом постоянное информационно.
+						</p>
+					</div>
+					<div class="between-container"><a href="/">Оставить отзыв</a><a href="/">Подробнее</a></div>
+				</div>
+			</section>
+			<section class="another-product-section">
+				<h3>Похожие товары</h3>
+				<div class="another-goods-container">
+
+					<div class="another-carousel shadow">
+						<div class="another-wrapper">
+							<div class="another-item another-items">
+
+							</div>
+						</div>
+						<div class="another-button">
+							<div class="another-button-left"><a href="/"><i class="fa fa-angle-left" aria-hidden="true"></i></a></div>
+							<div class="another-button-right"><a href="/"><i class="fa fa-angle-right" aria-hidden="true"></i></a></div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="viewed-product-section">
+				<h3>Вы смотрели</h3>
+				<div class="viewed-goods-container">
+
+					<div class="another-carousel-view shadow">
+						<div class="another-wrapper-view">
+							<div class="another-item another-items-view">
+
+							</div>
+						</div>
+						<div class="another-button">
+							<div class="viewed-button-left"><a href="/"><i class="fa fa-angle-left" aria-hidden="true"></i></a></div>
+							<div class="viewed-button-right"><a href="/"><i class="fa fa-angle-right" aria-hidden="true"></i></a></div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</div>
+
+	</section>
+	<footer>
+		<section class="footer-top-section">
+			<div class="container">
+				<div class="schedule col-sm-3 col-md-2 col-lg-2">
+					<img src="img/logo-white.png" alt="">
+					<p>График работы</p>
+					<p>Будни с 9-00 до 18-00</p>
+					<p>Суббота с 10-00 до 18-00</p>
+				</div>
+				<div class="information col-md-2 col-lg-2">
+					<h5>Информация</h5>
+					<ul>
+						<li><a href="/">О нас</a></li>
+						<li><a href="/">Доставка</a></li>
+						<li><a href="/">Оплата</a></li>
+						<li><a href="/">Гарантия</a></li>
+						<li><a href="/">Кредит</a></li>
+					</ul>
+				</div>
+				<div class="admin col-lg-2">
+					<h5>Администрация</h5>
+					<ul>
+						<li><a href="/">Контакты</a></li>
+						<li><a href="/">Возврат товара</a></li>
+						<li><a href="/">Связь с руководством</a></li>
+						<li><a href="/">Условия использования</a></li>
+						<li><a href="/">Договор</a></li>
+					</ul>
+				</div>
+				<div class="contact  col-sm-5 col-md-4 col-lg-3">
+					<h5>Контакты</h5>
+					<p><i class="fa fa-map-marker" aria-hidden="true"></i>Украина, г. Днепропетровск,
+						<br>
+						<span>ул. Гоголя, 35</span></p>
+					<p><i class="fa fa-phone" aria-hidden="true"></i>+38 (067) 111-11-11
+						<br>
+						<span>+38 (067) 111-11-11</span>
+						<br>
+						<span>+38 (067) 111-11-11</span></p>
+					<p><i class="fa fa-envelope-o" aria-hidden="true"></i>info@avtovilla.com.ua</p>
+				</div>
+				<div class="social-links-foo  col-sm-4 col-md-4 col-lg-3">
+					<p>Хотите получать акционные
+						<br> предложения и новости?</p>
+					<div>
+						<input type="text" placeholder="Ваш E-mail">
+						<a href="/">Да, хочу!</a>
+					</div>
+					<p>Мы в соцсетях</p>
+					<ul>
+						<li><i class="fa fa-vk" aria-hidden="true"></i></li>
+						<li><i class="fa fa-google-plus" aria-hidden="true"></i></li>
+						<li><i class="fa fa-pinterest-p" aria-hidden="true"></i></li>
+						<li><i class="fa fa-facebook" aria-hidden="true"></i></li>
+					</ul>
+				</div>
+			</div>
+		</section>
+		<section class="footer-bottom-section">
+			<div class="container">
+				<div class="between-container">
+					<p>© Интернет магазин <span>"ecoms" 2005 - 2016</span></p>
+					<p><span>ecoms</span> разработка и продвижение интернет магазинов</p>
+				</div>
+			</div>
+		</section>
+	</footer>
+
+
+	<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+	<script src="plagins/okzoom/okzoom.js"></script>
+
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/main.js"></script>
+
+
+</body>
+
+</html>

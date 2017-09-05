@@ -1,0 +1,6 @@
+{
+    "port": 8000,
+    "files": ["./assets/**/*.{html,htm,css,js}"],
+    "server": { "baseDir": "./assets" },
+    "browser" : [ "firefox" ]
+}
